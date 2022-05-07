@@ -1,5 +1,9 @@
 # Efficacy-of-Deepfake-Detection-Methods
 
+### DatasetManipulationScripts
+
+This folder contains the scripts needed to use transform datasets like I did in my project. When downloading a set of videos from FaceForensics++, the first step is to use extractFramesFromVideos.py to extract the frames from the videos. More specifically, you need to create two directories: inputVidoes and outputImages. inputVideos contains the videos downloaded from FaceForensics++. outputImages contains the extracted frames after running extractFramesFromVideos.py. After, you should use the Create-Face-Data-from-images folder to transform the frames to frames with zoomed-in faces. Please refer to the README.md folder inside that folder for instructions. At this point, we have frames/images we can give to MesoNet. Finally, you should use createVideosFromImages.py. You should create two directories: inputImages and outputVideos. inputImages should contain either the images with zoomed-in faces or the images found under the ArtificiallyGeneratedFaceImagesAndVideos/ArtificiallyGeneratedFaceImages folder. outputVideos contains the videos created from the images in inputImages after createVideosFromImages.py is run.
+
 ### HeavyweightFaceswapImagesAndVideos
 
 This folder contains 3 subfolders. HeavyweightFaceswapImages stores heavyweight faceswap images/frames extracted from the heavyweight faceswap video dataset on Zenodo. HeavyweightFaceswapImagesFACE contains images of the zoomed-in faces of the images from the HeavyweightFaceswapImages folder. HeavyweightFaceswapVideosFACE contains videos created from the frames in the HeavyweightFaceswapImagesFACE folder.
@@ -36,7 +40,7 @@ This folder consists of the data and scripts needed to run DeepwareAI. The origi
 
 This folder contains the raw data from my experiments. Inside are two folders, ResearchQuestions1and2 and ResearchQuestion3. ResearchQuestions1and2 contain the data I used for my first two research questions. More specicially, this folder contains two folders, MesonetData and DeepwareAIData. Inside DeepwareAIData, you can find the .csv files and tables I generated from those .csv files. This data came from testing DeepwareAI with the 4 deepfake videos and 1 real videos datasets. Inside MesonetData, you can find the tables I generated from testing MesoNet with the 4 deepfake images and 1 real images datasets. Unlike DeepwareAI, MesoNet doesn't produce .csv files and I had to store the prediction results in Python arrays before generating the tables. The ResearchQuestion3 folder contains the data I used for my third research question. More specifically, this folder contains the 10 tables I generated from testing Mesonet with the 10 imagesets that can be found in the StyleGANImages folder.
 
-### Milestone Assignments
+### MilestoneAssignments
 
 This folder contains my project proposal, my revised project proposal, my project progress report, my demo slides, and my final report.
 
