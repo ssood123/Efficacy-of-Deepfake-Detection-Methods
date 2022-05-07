@@ -26,7 +26,7 @@ This folder contains 3 subfolders. RealImages stores real/unmodified images/fram
 
 ### ArtificiallyGeneratedFaceImagesAndVideos
 
-This folder contains 2 subfolders. ArtificiallyGeneratedFaceImages contains images downloaded directly from https://this-person-does-not-exist.com/en. ArtificiallyGeneratedFaceVideos contains videos created the frames in the ArtificiallyGeneratedFaceImages folder.
+This folder contains 2 subfolders. ArtificiallyGeneratedFaceImages contains images downloaded directly from https://this-person-does-not-exist.com/en. ArtificiallyGeneratedFaceVideos contains videos created from the frames in the ArtificiallyGeneratedFaceImages folder.
 
 ### StyleGANImages
 
