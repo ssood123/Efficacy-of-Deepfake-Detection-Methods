@@ -30,4 +30,16 @@ This folder consists of the data and scripts needed to run MesoNet. In addition 
 
 ### DeepwareAI
 
-The original repo can be found here: https://github.com/deepware/deepfake-scanner. This folder consists of the data and scripts needed to run DeepwareAI. In addtion to the files already stored already stored in this folder, one needs to create a folder named "weights" that contains the weights that can be downloaded from https://github.com/deepware/deepfake-scanner. One also needs to create a folder named "videos" that contains that videos to be classified by DeepwareAI. After, DeepwareAI.ipynb needs to be run, after which DeepwareAI will generate a results.csv file consisting of its predictions for each video in the "videos" folder. Finally, analyzeDeepwareCSVdata.ipynb needs to be run to generate meaningful table data from results.csv.
+This folder consists of the data and scripts needed to run DeepwareAI. The original repo can be found here: https://github.com/deepware/deepfake-scanner.  In addtion to the files already stored already stored in this folder, one needs to create a folder named "weights" that contains the weights that can be downloaded from https://github.com/deepware/deepfake-scanner. One also needs to create a folder named "videos" that contains that videos to be classified by DeepwareAI. After, DeepwareAI.ipynb needs to be run, after which DeepwareAI will generate a results.csv file consisting of its predictions for each video in the "videos" folder. Finally, analyzeDeepwareCSVdata.ipynb needs to be run to generate meaningful table data from results.csv.
+
+### RawProjectData
+
+This folder contains the raw data from my experiments. Inside are two folders, ResearchQuestions1and2 and ResearchQuestion3. ResearchQuestions1and2 contain the data I used for my first two research questions. More specicially, this folder contains two folders, MesonetData and DeepwareAIData. Inside DeepwareAIData, you can find the .csv files and tables I generated from those .csv files. This data came from testing DeepwareAI with the 4 deepfake videos and 1 real videos datasets. Inside MesonetData, you can find the tables I generated from testing MesoNet with the 4 deepfake images and 1 real images datasets. Unlike DeepwareAI, MesoNet doesn't produce .csv files and I had to store the prediction results in Python arrays before generating the tables. The ResearchQuestion3 folder contains the data I used for my third research question. More specifically, this folder contains the 10 tables I generated from testing Mesonet with the 10 imagesets that can be found in the StyleGANImages folder.
+
+### Milestone Assignments
+
+This folder contains my project proposal, my revised project proposal, my project progress report, my demo slides, and my final report.
+
+### stylegan.ipynb
+
+This file is that .ipynb file I used to run StyleGAN and generate realistic-looking faces.
