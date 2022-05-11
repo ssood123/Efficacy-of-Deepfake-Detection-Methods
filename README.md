@@ -51,3 +51,12 @@ This folder contains my project proposal, my revised project proposal, my projec
 ### stylegan.ipynb
 
 This file is that .ipynb file I used to run StyleGAN and generate realistic-looking faces.
+
+In addition to the following folders described above,
+On Zenodo, you can find the videos I downloaded directly from FaceForensics++. Each dataset consists of 300 videos.
+● Lightweight Faceswap Video Dataset:
+https://zenodo.org/record/6476243#.YnSSPtrMI2w
+● Heavyweight Faceswap Video Dataset:
+https://zenodo.org/record/6430356#.YnSSudrMI2w
+● Original Video Dataset: https://zenodo.org/record/6476482#.YnSSydrMI2w
+● Face2Face Video Dataset: https://zenodo.org/record/6430891#.YnSS2trMI2w
